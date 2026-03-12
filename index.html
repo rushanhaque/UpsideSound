@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>UpsideSound — Finding Your Frequency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="http://www.rushanhaque.online" target="_blank" class="global-nametag">Contact Developer</a>
+
+  <div class="wall-bg">
+    <div class="wall-container">
+      <img src="assets/wall.jpg.png" alt="Stranger Things Wall" class="wall-img" id="wall-img">
+      <div class="lights-layer" id="lights-layer"></div>
+    </div>
+  </div>
+
+  <div class="bottom-fade"></div>
+
+  <!-- Permanent Premium Branding -->
+  <div class="app-branding">
+    <h1 class="app-logo">UpsideSound</h1>
+  </div>
+
+  <div class="intro-screen" id="intro-screen">
+    <p class="intro-subtitle">A semantic psychological evaluation to determine your true frequency.</p>
+    <button class="begin-btn" id="begin-btn">BEGIN ANALYSIS</button>
+  </div>
+
+  <div class="reveal-screen hidden" id="reveal-screen">
+    <video autoplay loop muted playsinline disablePictureInPicture oncontextmenu="return false;" class="reveal-video" id="reveal-video">
+      <source src="assets/closingscene.mp4" type="video/mp4">
+    </video>
+    
+    <div class="reveal-card premium-landscape">
+      <p class="reveal-card-subtitle">ANALYSIS COMPLETE — YOUR FREQUENCY MATCH:</p>
+      
+      <div class="reveal-left">
+        <img src="" alt="Album Cover" class="reveal-cover" id="reveal-cover">
+      </div>
+
+      <div class="reveal-text-group">
+        <h2 class="reveal-title" id="reveal-title">Song Title</h2>
+        <h3 class="reveal-artist" id="reveal-artist">Artist Name</h3>
+        <p class="reveal-vibe" id="reveal-vibe">Vibe</p>
+      </div>
+
+      <div class="reveal-actions">
+        <a href="#" target="_blank" class="reveal-btn" id="reveal-btn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="spotify-icon"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.021zM18.84 14.4c-.3.42-.84.54-1.26.24-3.539-2.16-8.88-2.76-12.06-1.5-.48.18-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C8.28 10.02 14.16 10.68 18.12 13.08c.48.3.6.84.3 1.26zm.12-3.3c-4.26-2.52-11.28-2.76-15.36-1.5-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.68-1.44 12.48-1.14 17.4 1.74.54.3.72 1.02.42 1.56-.3.6-.96.72-1.5.3z"/></svg>
+          Spotify
+        </a>
+        <button class="reveal-btn-secondary" id="browse-more-btn">More Suggestions</button>
+      </div>
+    </div>
+
+    <div id="discovery-overlay" class="discovery-overlay hidden">
+      <div class="discovery-header">
+        <h2 class="discovery-title">PSYCHIC RESONANCE GALLERY</h2>
+        <button id="close-discovery-btn" class="close-btn">&times;</button>
+      </div>
+      <div class="discovery-grid" id="discovery-grid"></div>
+    </div>
+    
+    <div id="spotify-player-container" style="position: absolute; opacity: 0.01; pointer-events: none; width: 10px; height: 10px; overflow: hidden; bottom: 0;">
+      <iframe id="spotify-player" src="" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <div class="chat-container hidden" id="chat-container">
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-wrapper">
+      <input type="text" class="chat-input" id="chat-input" placeholder="express your mind..." autocomplete="off">
+      <button class="chat-send" id="chat-send">▶</button>
+    </div>
+  </div>
+
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
