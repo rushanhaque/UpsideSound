@@ -84,7 +84,8 @@ function turnOn(char, ms = 700) {
 
 let currentSequence = ['R', 'U', 'S', 'H', 'A', 'N'];
 let sequenceActive = true;
-let currentPreviewAudio = null;
+let currentPreviewAudio = new Audio();
+currentPreviewAudio.volume = 0.8;
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -272,6 +273,14 @@ async function addMessage(text, isUser = false) {
 }
 
 beginBtn.addEventListener('click', () => {
+  // Mobile Fix: Unlock audio on first user interaction
+  music1.play().then(() => music1.pause());
+  music2.play().then(() => music2.pause());
+  currentPreviewAudio.play().then(() => currentPreviewAudio.pause()).catch(() => {});
+  
+  const silent = new Audio();
+  silent.play().catch(() => {});
+
   introScreen.classList.add('hidden');
   chatContainer.classList.remove('hidden');
   const shuffled = [...allQuizQuestions].sort(() => 0.5 - Math.random());
@@ -279,6 +288,12 @@ beginBtn.addEventListener('click', () => {
   setTimeout(() => {
     addMessage("This is a psychological evaluation. I don't care about your favorite color. I care about how your mind maps to the world. I will ask you eight randomly drawn questions—a mix of personality, paradoxes, and scenarios. Tell me honestly what you think. Ready?");
   }, 1000);
+  
+  // Start ambiance after unlock
+  setTimeout(() => {
+    music1.currentTime = 0;
+    music1.play().catch(e => console.error("Audio blocked:", e));
+  }, 500);
 });
 
 function scoreAnswer(text) {
@@ -421,13 +436,11 @@ function triggerRecommendedPlayback(previewUrl) {
     music1.pause();
     music2.pause();
     if (previewUrl) {
-        if (currentPreviewAudio) {
-            currentPreviewAudio.pause();
-            currentPreviewAudio = null;
-        }
-        currentPreviewAudio = new Audio(previewUrl);
-        currentPreviewAudio.volume = 0.8;
+        currentPreviewAudio.pause();
+        currentPreviewAudio.src = previewUrl;
+        currentPreviewAudio.load();
         currentPreviewAudio.play().catch(e => {
+            console.warn("Preview blocked, falling back to Spotify Embed:", e);
             updateSpotifyPlayer(document.getElementById('reveal-btn').href);
         });
     } else {

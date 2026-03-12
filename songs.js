@@ -371,7 +371,7 @@ const songDatabase = [
       "sociability": 5
     },
     "link": "https://open.spotify.com/track/1fKMZoHqumxZ7TNPV28SUM",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=1",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/44/e0/75/44e07567-0245-090c-03f9-74d75f284000/195448373303.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/712c61c870ece800950b2bc88cca5d1d863d7a99"
   },
   {
@@ -536,7 +536,7 @@ const songDatabase = [
       "sociability": 7
     },
     "link": "https://open.spotify.com/track/5iyNH1Dmxif1k4Nl1gMeuh",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=2",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5a/09/cc/5a09cc64-4475-430b-5421-2a67746522f7/mzm.ivkizfup.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/bb0cc6137c1f86cdbcb0cc940c15df6e06292959"
   },
   {
@@ -551,7 +551,7 @@ const songDatabase = [
       "sociability": 3
     },
     "link": "https://open.spotify.com/track/3vkCueOmm7xQDoJ17W1Pm3",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=3",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/37/11/3c371131-081e-be4c-fc35-77987e9fb470/656605035255.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/2f90c9a6a2b6e38554d3bc3cf7512c2c70ac67b9"
   },
   {
@@ -626,7 +626,7 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/2V65y3PX4DkRhy1djlxd9p",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=4",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6b/56/6b/6b566b72-03f2-a05e-8534-1925357494cc/886443606821.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/4e2b9b425c14fde73ba0a7c0c4fb31ab6be199ea"
   },
   {
@@ -641,7 +641,7 @@ const songDatabase = [
       "sociability": 6
     },
     "link": "https://open.spotify.com/track/52eIcoLUM25zbQupAZYoFh",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=5",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/53/56/21535697-7fcf-c045-3163-f2cc5f3c09f3/196871032896.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/5718c10d33312038919ba349efe5fb3a3a69ced8"
   },
   {
@@ -656,7 +656,7 @@ const songDatabase = [
       "sociability": 1
     },
     "link": "https://open.spotify.com/track/55n9yjI6qqXh5F2mYvUc2y",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=6",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c3/8b/1b/c38b1b01-fb96-2917-06da-c875d7870428/00602557342680.rgb.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/91604dc22ce61d069ee8b445fa7ab9c18f51f8ad"
   },
   {
@@ -671,7 +671,7 @@ const songDatabase = [
       "sociability": 8
     },
     "link": "https://open.spotify.com/track/2MvCNH9ua0CeOgUQfZf56z",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=7",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/44/04/b8/4404b868-6938-f1e1-c85d-8557ee6e5455/mzm.ixznhmrd.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/4d5c939b5f3f02f93e7316c27a44727d73a16edc"
   },
   {
@@ -686,7 +686,7 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/0mEdbdeRFQwBhN4xfyIeUM",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=8",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/6c/fb/436cfbe9-b570-8777-622f-d85c8850606f/mzm.hccmrmsi.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/cf50de84fcb3c57394d204fa060fb7fbe0f93a33"
   },
   {
@@ -731,7 +731,7 @@ const songDatabase = [
       "sociability": 1
     },
     "link": "https://open.spotify.com/track/44ngiCPfS8FfdJOqN0eULl",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=9",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/a3/52/27a35222-0f0c-b258-0ce0-b747384a625e/5054197471926.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/df236bbecfa0a1ede504f501c5b50cca29fbcfa6"
   },
   {
@@ -776,7 +776,7 @@ const songDatabase = [
       "sociability": 4
     },
     "link": "https://open.spotify.com/track/0PKEQjnGn0LmPjozJ3t4MF",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=10",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cc/6a/d0/cc6ad0a5-f860-20ce-3816-3e4b7858c0df/859714772655_cover.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/4b63be952cf6f4daef3a4e9ab7c548811d5e2977"
   },
   {
@@ -791,7 +791,7 @@ const songDatabase = [
       "sociability": 7
     },
     "link": "https://open.spotify.com/track/0azC730Exh71aQlOt9Zj3y",
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=11",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/58/bc/1058bc59-7157-1996-5777-a8fd2b395d3e/886445903935.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/e48e6b923e17e69d081494d68cce3beb4a45f522"
   },
   {
