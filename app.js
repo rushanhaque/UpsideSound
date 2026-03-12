@@ -409,6 +409,8 @@ async function analyzeAndRecommend() {
   document.getElementById('reveal-artist').innerText = bestMatch.artist;
   document.getElementById('reveal-vibe').innerText = `Frequency: ${bestMatch.vibe}`;
   document.getElementById('reveal-btn').href = bestMatch.link;
+  triggerRecommendedPlayback(bestMatch.preview);
+  document.querySelector('.reveal-card-subtitle').innerText = `ANALYSIS COMPLETE — PSYCHICALLY SYNCED WITH ${charMatch.name.toUpperCase()}:`;
   document.querySelector('.app-branding').style.opacity = '0';
   document.getElementById('reveal-screen').classList.remove('hidden');
   const revealVideo = document.getElementById('reveal-video');
