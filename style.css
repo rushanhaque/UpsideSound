@@ -1,7 +1,11 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
+<<<<<<< HEAD
   --red: #800020;
+=======
+  --red: #ff1a1a;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   --yellow: #ffd500;
   --green: #00cc44;
   --blue: #1e90ff;
@@ -42,7 +46,11 @@ html, body {
 .wall-img {
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   object-fit: cover;
+=======
+  object-fit: fill;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   filter: brightness(0.65) contrast(1.2) sepia(0.2);
 }
 
@@ -75,10 +83,17 @@ html, body {
   opacity: 1;
 }
 
+<<<<<<< HEAD
 .light-bulb.red { box-shadow: 0 0 1vw 0.5vw rgba(128, 0, 32, 1), 0 0 3vw 1.5vw rgba(128, 0, 0, 0.6); }
 .light-bulb.blue { box-shadow: 0 0 1vw 0.5vw rgba(100, 200, 255, 1), 0 0 3vw 1.5vw rgba(0, 150, 255, 0.6); }
 .light-bulb.green { box-shadow: 0 0 1vw 0.5vw rgba(50, 255, 50, 1), 0 0 3vw 1.5vw rgba(0, 128, 0, 0.6); }
 .light-bulb.yellow { box-shadow: 0 0 1vw 0.5vw rgba(255, 255, 100, 1), 0 0 3vw 1.5vw rgba(255, 128, 0, 0.6); }
+=======
+.light-bulb.red { box-shadow: 0 0 1vw 0.5vw rgba(255, 30, 30, 1), 0 0 3vw 1.5vw rgba(255, 0, 0, 0.6); }
+.light-bulb.blue { box-shadow: 0 0 1vw 0.5vw rgba(100, 200, 255, 1), 0 0 3vw 1.5vw rgba(0, 150, 255, 0.6); }
+.light-bulb.green { box-shadow: 0 0 1vw 0.5vw rgba(50, 255, 50, 1), 0 0 3vw 1.5vw rgba(0, 255, 0, 0.6); }
+.light-bulb.yellow { box-shadow: 0 0 1vw 0.5vw rgba(255, 255, 100, 1), 0 0 3vw 1.5vw rgba(255, 255, 0, 0.6); }
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 .light-bulb.pink { box-shadow: 0 0 1vw 0.5vw rgba(255, 100, 255, 1), 0 0 3vw 1.5vw rgba(255, 50, 255, 0.6); }
 .light-bulb.orange { box-shadow: 0 0 1vw 0.5vw rgba(255, 120, 30, 1), 0 0 3vw 1.5vw rgba(255, 100, 0, 0.6); }
 .light-bulb.white { box-shadow: 0 0 1vw 0.5vw rgba(255, 255, 255, 1), 0 0 3vw 1.5vw rgba(255, 255, 255, 0.6); }
@@ -129,7 +144,11 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
+<<<<<<< HEAD
   color: rgba(128, 0, 32, 0.9);
+=======
+  color: rgba(255, 30, 30, 0.9);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   letter-spacing: 6px;
   text-transform: uppercase;
   margin: 0;
@@ -141,17 +160,29 @@ html, body {
   0%   { opacity: 0.9; text-shadow: none; }
   2%   { opacity: 0.1; }
   4%   { opacity: 0.9; }
+<<<<<<< HEAD
   8%   { opacity: 0.85; text-shadow: 0 0 4px rgba(128, 0, 0, 0.3); }
+=======
+  8%   { opacity: 0.85; text-shadow: 0 0 4px rgba(255, 0, 0, 0.3); }
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   9%   { opacity: 0.2; }
   11%  { opacity: 0.9; text-shadow: none; }
   30%  { opacity: 0.9; }
   32%  { opacity: 0.15; }
   33%  { opacity: 0.85; }
+<<<<<<< HEAD
   35%  { opacity: 0.9; text-shadow: 0 0 6px rgba(128, 0, 0, 0.4); }
   36%  { opacity: 0.1; }
   37%  { opacity: 0.9; text-shadow: none; }
   60%  { opacity: 0.9; }
   61%  { opacity: 0.4; text-shadow: 0 0 2px rgba(128, 0, 0, 0.2); }
+=======
+  35%  { opacity: 0.9; text-shadow: 0 0 6px rgba(255, 0, 0, 0.4); }
+  36%  { opacity: 0.1; }
+  37%  { opacity: 0.9; text-shadow: none; }
+  60%  { opacity: 0.9; }
+  61%  { opacity: 0.4; text-shadow: 0 0 2px rgba(255, 0, 0, 0.2); }
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   62%  { opacity: 0.9; }
   100% { opacity: 0.9; text-shadow: none; }
 }
@@ -192,8 +223,13 @@ html, body {
 
 .begin-btn:hover {
   background: rgba(255,255,255,0.1);
+<<<<<<< HEAD
   box-shadow: 0 0 15px rgba(255,255,255,0.5) inset, 0 0 20px rgba(128, 0, 32,0.5);
   border-color: #800020;
+=======
+  box-shadow: 0 0 15px rgba(255,255,255,0.5) inset, 0 0 20px rgba(255,30,30,0.5);
+  border-color: #ff1a1a;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .chat-container {
@@ -235,20 +271,33 @@ html, body {
   background: rgba(0, 0, 0, 0.5);
 }
 .chat-messages::-webkit-scrollbar-thumb {
+<<<<<<< HEAD
   background: rgba(140, 20, 50, 0.5);
+=======
+  background: rgba(255, 50, 50, 0.5);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   border-radius: 5px;
 }
 
 .msg-bot {
   font-family: 'Special Elite', monospace;
   font-size: 1.1rem;
+<<<<<<< HEAD
   color: #a32638;
   text-shadow: 0 0 8px rgba(140, 20, 50,0.8);
+=======
+  color: #ff3a3a;
+  text-shadow: 0 0 8px rgba(255,50,50,0.8);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   align-self: flex-start;
   background: rgba(10, 0, 0, 0.8);
   padding: 10px 14px;
   border-radius: 8px;
+<<<<<<< HEAD
   border-left: 2px solid #800020;
+=======
+  border-left: 2px solid #ff1a1a;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   max-width: 90%;
   border-bottom-left-radius: 0;
 }
@@ -309,8 +358,13 @@ html, body {
 }
 
 .chat-input:focus {
+<<<<<<< HEAD
   border-color: rgba(140, 20, 50, 0.6);
   box-shadow: inset 0 0 10px rgba(0,0,0,0.8), 0 0 20px rgba(140, 20, 50, 0.3);
+=======
+  border-color: rgba(255, 50, 50, 0.6);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.8), 0 0 20px rgba(255, 50, 50, 0.3);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .chat-send {
@@ -327,8 +381,13 @@ html, body {
 }
 
 .chat-send:hover {
+<<<<<<< HEAD
   color: rgba(140, 20, 50, 0.9);
   text-shadow: 0 0 10px rgba(140, 20, 50, 0.8);
+=======
+  color: rgba(255, 50, 50, 0.9);
+  text-shadow: 0 0 10px rgba(255, 50, 50, 0.8);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 /* ===== FINAL REVEAL UI ===== */
@@ -537,7 +596,11 @@ html, body {
   top: 40px;
   right: 40px;
   z-index: 1000;
+<<<<<<< HEAD
   color: rgba(128, 0, 32, 0.9);
+=======
+  color: rgba(255, 30, 30, 0.9);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
@@ -565,7 +628,10 @@ html, body {
   display: flex;
   flex-direction: column;
   padding: 40px;
+<<<<<<< HEAD
   overflow-x: hidden;
+=======
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   animation: overlayFadeIn 0.4s ease forwards;
 }
 
@@ -581,8 +647,11 @@ html, body {
   margin-bottom: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 15px;
+<<<<<<< HEAD
   width: 100%;
   max-width: 100%;
+=======
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .discovery-title {
@@ -592,8 +661,11 @@ html, body {
   letter-spacing: 2px;
   color: #ffffff;
   margin: 0;
+<<<<<<< HEAD
   padding-right: 20px;
   line-height: 1.2;
+=======
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .close-btn {
@@ -640,6 +712,7 @@ html, body {
 }
 
 .discovery-item:hover {
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(30, 215, 96, 0.7);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
@@ -649,6 +722,11 @@ html, body {
 .discovery-item:hover .discovery-link {
   transform: scale(1.2);
   color: #1fdf64;
+=======
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(29, 215, 96, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .discovery-cover {
@@ -680,9 +758,12 @@ html, body {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
   margin: 2px 0 0 0;
+<<<<<<< HEAD
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+=======
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 }
 
 .discovery-link {
@@ -757,11 +838,18 @@ html, body {
       "actions";
     grid-template-columns: 1fr;
     text-align: center;
+<<<<<<< HEAD
     padding: 24px;
     gap: 15px;
     max-width: 340px;
     bottom: 5vh;
     margin: 0 auto;
+=======
+    padding: 15px;
+    gap: 10px;
+    max-width: 240px;
+    bottom: 12vh;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   }
   .reveal-card-subtitle {
     grid-area: subtitle;
@@ -775,9 +863,15 @@ html, body {
     justify-content: center;
   }
   .reveal-cover {
+<<<<<<< HEAD
     width: 130px;
     height: 130px;
     border-radius: 10px;
+=======
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   }
   .reveal-text-group {
     grid-area: info;
@@ -786,16 +880,28 @@ html, body {
     gap: 0;
   }
   .reveal-title {
+<<<<<<< HEAD
     font-size: 1.4rem;
+=======
+    font-size: 0.9rem;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     line-height: 1.2;
     max-width: 100%;
   }
   .reveal-artist {
+<<<<<<< HEAD
     font-size: 0.95rem;
   }
   .reveal-vibe {
     font-size: 0.65rem;
     margin-top: 4px;
+=======
+    font-size: 0.75rem;
+  }
+  .reveal-vibe {
+    font-size: 0.6rem;
+    margin-top: 2px;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   }
   .reveal-actions {
     grid-area: actions;
@@ -815,13 +921,19 @@ html, body {
   }
   .reveal-btn-secondary {
     width: 100%;
+<<<<<<< HEAD
     font-size: 0.85rem;
     padding: 10px 18px;
+=======
+    font-size: 0.7rem;
+    padding: 6px 10px;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     justify-content: center;
   }
 
   /* Discovery / Gallery */
   .discovery-overlay {
+<<<<<<< HEAD
     padding: 15px 10px;
   }
   .discovery-header {
@@ -861,6 +973,26 @@ html, body {
   }
   .discovery-song-artist {
     font-size: 0.75rem;
+=======
+    padding: 20px;
+  }
+  .discovery-title {
+    font-size: 1.1rem;
+  }
+  .discovery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .discovery-item {
+    padding: 10px;
+  }
+  .discovery-cover {
+    width: 48px;
+    height: 48px;
+  }
+  .discovery-song-title {
+    font-size: 0.85rem;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   }
 
   /* Wall Image Adjustments */
@@ -883,6 +1015,7 @@ html, body {
 /* Very Small Screens */
 @media (max-width: 360px) {
   .reveal-card {
+<<<<<<< HEAD
     padding: 20px 15px;
     max-width: 300px;
   }
@@ -892,6 +1025,16 @@ html, body {
   }
   .reveal-title {
     font-size: 1.2rem;
+=======
+    padding: 16px;
+  }
+  .reveal-cover {
+    width: 120px;
+    height: 120px;
+  }
+  .reveal-title {
+    font-size: 1.3rem;
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
   }
 }
 

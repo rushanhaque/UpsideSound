@@ -455,20 +455,31 @@ function populateDiscoveryGrid() {
     const shuffled = [...songDatabase].filter(s => s.title !== currentTitle).sort(() => 0.5 - Math.random());
     const selection = shuffled.slice(0, 30);
     selection.forEach(song => {
+<<<<<<< HEAD
         const item = document.createElement('a');
         item.href = song.link;
         item.target = "_blank";
         item.className = 'discovery-item';
         item.style.textDecoration = 'none';
+=======
+        const item = document.createElement('div');
+        item.className = 'discovery-item';
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
         item.innerHTML = `
             <img src="${song.image}" alt="${song.title}" class="discovery-cover">
             <div class="discovery-info">
                 <p class="discovery-song-title">${song.title}</p>
                 <p class="discovery-song-artist">${song.artist}</p>
             </div>
+<<<<<<< HEAD
             <div class="discovery-link">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.021zM18.84 14.4c-.3.42-.84.54-1.26.24-3.539-2.16-8.88-2.76-12.06-1.5-.48.18-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C8.28 10.02 14.16 10.68 18.12 13.08c.48.3.6.84.3 1.26zm.12-3.3c-4.26-2.52-11.28-2.76-15.36-1.5-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.68-1.44 12.48-1.14 17.4 1.74.54.3.72 1.02.42 1.56-.3.6-.96.72-1.5.3z"/></svg>
             </div>
+=======
+            <a href="${song.link}" target="_blank" class="discovery-link" title="Open in Spotify">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.021zM18.84 14.4c-.3.42-.84.54-1.26.24-3.539-2.16-8.88-2.76-12.06-1.5-.48.18-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C8.28 10.02 14.16 10.68 18.12 13.08c.48.3.6.84.3 1.26zm.12-3.3c-4.26-2.52-11.28-2.76-15.36-1.5-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.68-1.44 12.48-1.14 17.4 1.74.54.3.72 1.02.42 1.56-.3.6-.96.72-1.5.3z"/></svg>
+            </a>
+>>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
         `;
         grid.appendChild(item);
     });
