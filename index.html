@@ -2,92 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>UpsideSound — Finding Your Frequency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>UpsideSound - Find Your Frequency</title>
+  <meta name="description" content="A psychic-frequency evaluation from Hawkins National Laboratory. Answer a few questions and the lab tunes you to the one song on your wavelength, plus ten more.">
+  <meta name="theme-color" content="#08070A">
+
+  <!-- OG / social -->
+  <meta property="og:title" content="UpsideSound - Find Your Frequency">
+  <meta property="og:description" content="The lab reads your mind and locks onto your song. A Stranger Things frequency evaluation.">
+  <meta property="og:type" content="website">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap" rel="stylesheet">
-<<<<<<< HEAD
-  <link rel="stylesheet" href="style.css?v=3">
-=======
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 </head>
 <body>
-  <a href="http://www.rushanhaque.online" target="_blank" class="global-nametag">Contact Developer</a>
+  <!-- ===== ATMOSPHERE (back to front) ===== -->
+  <canvas id="void-canvas" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
 
-  <div class="wall-bg">
-    <div class="wall-container">
-      <img src="assets/wall.jpg.png" alt="Stranger Things Wall" class="wall-img" id="wall-img">
-      <div class="lights-layer" id="lights-layer"></div>
+  <!-- ===== PERSISTENT CHROME ===== -->
+  <header class="chrome" id="chrome">
+    <div class="chrome-brand">
+      <span class="chrome-mark">UPSIDESOUND</span>
+      <span class="chrome-file" id="chrome-file">FILE NO. 11-A</span>
     </div>
-  </div>
+    <a href="https://www.rushanhaque.online" target="_blank" rel="noopener" class="chrome-dev">CONTACT DEVELOPER</a>
+  </header>
 
-  <div class="bottom-fade"></div>
+  <!-- ===== SCREEN 1 - LANDING (the sealed case file) ===== -->
+  <main class="screen landing is-active" id="landing">
+    <section class="dossier" id="dossier">
+      <p class="dossier-org">HAWKINS NATIONAL LABORATORY <span class="hair">/</span> DEPT. OF ENERGY</p>
+      <p class="dossier-sub">PSYCHIC FREQUENCY EVALUATION <span class="hair">/</span> SUBJECT: UNREGISTERED</p>
 
-  <!-- Permanent Premium Branding -->
-  <div class="app-branding">
-    <h1 class="app-logo">UpsideSound</h1>
-  </div>
+      <h1 class="wordmark">UpsideSound</h1>
+      <p class="tagline">A frequency is calling from the other side. Answer honestly, and the lab will tune you to the one song on your wavelength.</p>
 
-  <div class="intro-screen" id="intro-screen">
-    <p class="intro-subtitle">A semantic psychological evaluation to determine your true frequency.</p>
-    <button class="begin-btn" id="begin-btn">BEGIN ANALYSIS</button>
-  </div>
+      <button class="btn-begin" id="begin-btn">
+        <span class="btn-caret">&#9656;</span> BEGIN EVALUATION
+      </button>
+      <p class="landing-meta">No sign-up. <span class="hair">/</span> 7 questions. <span class="hair">/</span> Sound on for the full signal.</p>
 
-  <div class="reveal-screen hidden" id="reveal-screen">
-    <video autoplay loop muted playsinline disablePictureInPicture oncontextmenu="return false;" class="reveal-video" id="reveal-video">
+      <div class="stamp stamp-classified" id="stamp-classified" aria-hidden="true">CLASSIFIED</div>
+    </section>
+  </main>
+
+  <!-- ===== SCREEN 2 - EVALUATION (examiner / subject transcript) ===== -->
+  <section class="screen evaluation" id="evaluation" aria-hidden="true">
+    <div class="eval-head">
+      <span class="eval-label">PSYCHIC EVALUATION <span class="hair">/</span> LIVE</span>
+      <span class="eval-counter" id="eval-counter">QUERY 00 / 07</span>
+    </div>
+    <div class="eval-progress" aria-hidden="true"><span class="eval-progress-fill" id="eval-progress-fill"></span></div>
+
+    <div class="chat-log" id="chat-log" role="log" aria-live="polite"></div>
+
+    <div class="scope-strip" aria-hidden="true">
+      <canvas id="scope-canvas"></canvas>
+    </div>
+
+    <form class="input-row" id="input-form" autocomplete="off">
+      <span class="input-prefix">SUBJECT &#9656;</span>
+      <input type="text" class="input-field" id="chat-input" placeholder="state your response..." autocomplete="off" enterkeyhint="send">
+      <button type="submit" class="input-send" id="chat-send" aria-label="Send response">&#9656;</button>
+    </form>
+  </section>
+
+  <!-- ===== SCREEN 3 - ANALYSIS (frequency lock) ===== -->
+  <section class="screen analysis" id="analysis" aria-hidden="true">
+    <div class="analysis-inner">
+      <p class="analysis-title">MAPPING RESONANCE</p>
+      <div class="gauges" id="gauges"></div>
+      <div class="lock-dial" id="lock-dial">
+        <canvas id="lock-canvas"></canvas>
+        <span class="lock-readout" id="lock-readout">000.0</span>
+      </div>
+      <p class="analysis-status" id="analysis-status">CROSS-REFERENCING SUBJECT VECTOR...</p>
+    </div>
+  </section>
+
+  <!-- ===== SCREEN 4 - REVEAL (declassified result) ===== -->
+  <section class="screen reveal" id="reveal" aria-hidden="true">
+    <video class="reveal-video" id="reveal-video" loop muted playsinline preload="none" disablePictureInPicture oncontextmenu="return false;">
       <source src="assets/closingscene.mp4" type="video/mp4">
     </video>
-    
-    <div class="reveal-card premium-landscape">
-      <p class="reveal-card-subtitle">ANALYSIS COMPLETE — YOUR FREQUENCY MATCH:</p>
-      
-      <div class="reveal-left">
-        <img src="" alt="Album Cover" class="reveal-cover" id="reveal-cover">
+    <div class="reveal-scrim" aria-hidden="true"></div>
+
+    <article class="result-card" id="result-card">
+      <header class="result-head">
+        <span class="result-kicker" id="result-kicker">SUBJECT RESONANCE CONFIRMED</span>
+        <span class="result-freq" id="result-freq">FREQ 000.0</span>
+      </header>
+
+      <div class="result-body">
+        <div class="result-cover-wrap" id="result-cover-wrap">
+          <img class="result-cover" id="result-cover" alt="" referrerpolicy="no-referrer">
+          <span class="result-resonance" id="result-resonance">00%</span>
+          <span class="now-playing" id="now-playing" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        </div>
+
+        <div class="result-info">
+          <p class="result-eyebrow" id="result-sync">PSYCHICALLY SYNCED WITH ELEVEN</p>
+          <h2 class="result-title" id="result-title">Song Title</h2>
+          <p class="result-artist" id="result-artist">Artist</p>
+          <p class="result-vibe" id="result-vibe">ASSIGNED FREQUENCY</p>
+          <p class="result-read" id="result-read"></p>
+
+          <div class="result-actions">
+            <button class="btn-ghost btn-audio" id="audio-toggle" aria-label="Pause preview"><span id="audio-ico">&#10074;&#10074;</span> PAUSE</button>
+            <a href="#" target="_blank" rel="noopener" class="btn-spotify" id="spotify-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.021zM18.84 14.4c-.3.42-.84.54-1.26.24-3.539-2.16-8.88-2.76-12.06-1.5-.48.18-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C8.28 10.02 14.16 10.68 18.12 13.08c.48.3.6.84.3 1.26zm.12-3.3c-4.26-2.52-11.28-2.76-15.36-1.5-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.68-1.44 12.48-1.14 17.4 1.74.54.3.72 1.02.42 1.56-.3.6-.96.72-1.5.3z"/></svg>
+              PLAY ON SPOTIFY
+            </a>
+            <button class="btn-ghost" id="more-btn">OPEN THE ARCHIVE &#9656;</button>
+            <button class="btn-ghost btn-restart" id="restart-btn">RE-EVALUATE</button>
+          </div>
+        </div>
       </div>
 
-      <div class="reveal-text-group">
-        <h2 class="reveal-title" id="reveal-title">Song Title</h2>
-        <h3 class="reveal-artist" id="reveal-artist">Artist Name</h3>
-        <p class="reveal-vibe" id="reveal-vibe">Vibe</p>
-      </div>
+      <span class="stamp stamp-complete" id="stamp-complete" aria-hidden="true">EVALUATION<br>COMPLETE</span>
+    </article>
+  </section>
 
-      <div class="reveal-actions">
-        <a href="#" target="_blank" class="reveal-btn" id="reveal-btn">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="spotify-icon"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.021zM18.84 14.4c-.3.42-.84.54-1.26.24-3.539-2.16-8.88-2.76-12.06-1.5-.48.18-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C8.28 10.02 14.16 10.68 18.12 13.08c.48.3.6.84.3 1.26zm.12-3.3c-4.26-2.52-11.28-2.76-15.36-1.5-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.68-1.44 12.48-1.14 17.4 1.74.54.3.72 1.02.42 1.56-.3.6-.96.72-1.5.3z"/></svg>
-          Spotify
-        </a>
-        <button class="reveal-btn-secondary" id="browse-more-btn">More Suggestions</button>
+  <!-- ===== SCREEN 5 - GALLERY (additional frequencies) ===== -->
+  <div class="gallery-overlay" id="gallery-overlay" role="dialog" aria-modal="true" aria-label="Additional frequencies archive" aria-hidden="true">
+    <div class="gallery-head">
+      <div>
+        <h2 class="gallery-title">CLASSIFIED ARCHIVE</h2>
+        <p class="gallery-sub" id="gallery-sub">TEN ADDITIONAL FREQUENCIES ON YOUR WAVELENGTH</p>
       </div>
+      <button class="gallery-close" id="gallery-close" aria-label="Seal file">SEAL FILE &#10005;</button>
     </div>
-
-    <div id="discovery-overlay" class="discovery-overlay hidden">
-      <div class="discovery-header">
-        <h2 class="discovery-title">PSYCHIC RESONANCE GALLERY</h2>
-        <button id="close-discovery-btn" class="close-btn">&times;</button>
-      </div>
-      <div class="discovery-grid" id="discovery-grid"></div>
-    </div>
-    
-    <div id="spotify-player-container" style="position: absolute; opacity: 0.01; pointer-events: none; width: 10px; height: 10px; overflow: hidden; bottom: 0;">
-      <iframe id="spotify-player" src="" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
+    <div class="gallery-grid" id="gallery-grid"></div>
   </div>
 
-  <div class="chat-container hidden" id="chat-container">
-    <div class="chat-messages" id="chat-messages"></div>
-    <div class="chat-input-wrapper">
-      <input type="text" class="chat-input" id="chat-input" placeholder="express your mind..." autocomplete="off">
-      <button class="chat-send" id="chat-send">▶</button>
-    </div>
+  <!-- hidden Spotify embed fallback for in-app playback -->
+  <div id="spotify-embed-wrap" aria-hidden="true">
+    <iframe id="spotify-embed" src="" width="100%" height="80" frameBorder="0" allow="autoplay; encrypted-media" loading="lazy"></iframe>
   </div>
 
-<<<<<<< HEAD
-  <script src="songs.js?v=4"></script>
-  <script src="app.js?v=2"></script>
-=======
   <script src="songs.js"></script>
+  <script src="questions.js"></script>
+  <script src="engine.js"></script>
   <script src="app.js"></script>
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
 </body>
 </html>

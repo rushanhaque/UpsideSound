@@ -241,7 +241,7 @@ const songDatabase = [
   },
   {
     "title": "Lean On",
-    "artist": "Major Lazer, DJ Snake, M├ÿ",
+    "artist": "Major Lazer, DJ Snake, MØ",
     "vibe": "Modern Hit",
     "vectors": {
       "idealism": 6,
@@ -551,11 +551,7 @@ const songDatabase = [
       "sociability": 3
     },
     "link": "https://open.spotify.com/track/3vkCueOmm7xQDoJ17W1Pm3",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/4b/40/8f4b4044-d02b-dc25-7d01-7d9d225fdce4/40240.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/37/11/3c371131-081e-be4c-fc35-77987e9fb470/656605035255.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/2f90c9a6a2b6e38554d3bc3cf7512c2c70ac67b9"
   },
   {
@@ -604,21 +600,6 @@ const songDatabase = [
     "preview": "https://p.scdn.co/mp3-preview/06e51b8fe42ed208ab368a1098dabb31d8092ce3"
   },
   {
-    "title": "I Took A Pill In Ibiza - Seeb Remix",
-    "artist": "Mike Posner, Seeb",
-    "vibe": "Modern Hit",
-    "vectors": {
-      "idealism": 4,
-      "pragmatism": 4,
-      "intensity": 5,
-      "introspection": 1,
-      "sociability": 3
-    },
-    "link": "https://open.spotify.com/track/62UAFVREdTssSevwa5jqhF",
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/ee/2f/b1ee2fbc-01e6-9f40-ab58-c9f9605f6333/16UMGIM13738.rgb.jpg/600x600bb.jpg",
-    "preview": "https://p.scdn.co/mp3-preview/8eb8510cb5e7658488a6d148f71258c61cdad36d"
-  },
-  {
     "title": "Don't You Worry Child - Radio Edit",
     "artist": "Swedish House Mafia, John Martin",
     "vibe": "Dreamy & Ethereal",
@@ -630,11 +611,7 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/2V65y3PX4DkRhy1djlxd9p",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/b8/1b/4cb81b88-894c-b6cb-101a-047773f2efbf/13UADIM60721.rgb.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6b/56/6b/6b566b72-03f2-a05e-8534-1925357494cc/886443606821.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/4e2b9b425c14fde73ba0a7c0c4fb31ab6be199ea"
   },
   {
@@ -649,19 +626,11 @@ const songDatabase = [
       "sociability": 6
     },
     "link": "https://open.spotify.com/track/52eIcoLUM25zbQupAZYoFh",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/77/84/5e/77845ee7-573c-efcc-4ce4-c9625fdce8c7/196871714556.jpg/600x600bb.jpg",
-    "preview": "https://p.scdn.co/mp3-preview/5718c10d33312038919ba349efe5fb3a3a69ced8"
-  },
-  {
-    "title": "I Don't Wanna Live Forever (Fifty Shades Darker)",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/53/56/21535697-7fcf-c045-3163-f2cc5f3c09f3/196871032896.jpg/600x600bb.jpg",
     "preview": "https://p.scdn.co/mp3-preview/5718c10d33312038919ba349efe5fb3a3a69ced8"
   },
   {
-    "title": "I DonΓÇÖt Wanna Live Forever (Fifty Shades Darker)",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "title": "I Don't Wanna Live Forever (Fifty Shades Darker)",
     "artist": "ZAYN, Taylor Swift",
     "vibe": "Modern Hit",
     "vectors": {
@@ -672,11 +641,7 @@ const songDatabase = [
       "sociability": 1
     },
     "link": "https://open.spotify.com/track/55n9yjI6qqXh5F2mYvUc2y",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/9b/1e/e59b1eaa-92d3-df4b-73f2-9bd798feb630/17UMGIM01263.rgb.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c3/8b/1b/c38b1b01-fb96-2917-06da-c875d7870428/00602557342680.rgb.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/91604dc22ce61d069ee8b445fa7ab9c18f51f8ad"
   },
   {
@@ -706,11 +671,7 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/0mEdbdeRFQwBhN4xfyIeUM",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/6c/fb/436cfbe9-b570-8777-622f-d85c8850606f/mzm.hccmrmsi.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/cf50de84fcb3c57394d204fa060fb7fbe0f93a33"
   },
   {
@@ -755,11 +716,7 @@ const songDatabase = [
       "sociability": 1
     },
     "link": "https://open.spotify.com/track/44ngiCPfS8FfdJOqN0eULl",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/ec/ad/6eecad65-b231-83a4-ae7f-dd8e8ceb2e92/886448777052.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/a3/52/27a35222-0f0c-b258-0ce0-b747384a625e/5054197471926.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/df236bbecfa0a1ede504f501c5b50cca29fbcfa6"
   },
   {
@@ -819,11 +776,7 @@ const songDatabase = [
       "sociability": 7
     },
     "link": "https://open.spotify.com/track/0azC730Exh71aQlOt9Zj3y",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/59/57/a6/5957a66e-fb10-4065-5739-7c54236339e4/886445857290.jpg/600x600bb.jpg",
-=======
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/58/bc/1058bc59-7157-1996-5777-a8fd2b395d3e/886445903935.jpg/600x600bb.jpg",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "preview": "https://p.scdn.co/mp3-preview/e48e6b923e17e69d081494d68cce3beb4a45f522"
   },
   {
@@ -838,11 +791,7 @@ const songDatabase = [
       "sociability": 6
     },
     "link": "https://open.spotify.com/track/1ZIEzrjzNaHuGtINjO3L2m",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f2/28/83/f22883cd-98a9-2ca8-ebd7-9500da615135/886443061866.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=12",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/ea98107dd43e0654903519697ef0f691636556be"
   },
   {
@@ -857,11 +806,7 @@ const songDatabase = [
       "sociability": 10
     },
     "link": "https://open.spotify.com/track/3CA9pLiwRIGtUBiMjbZmRw",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=13",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/6cafe308e1bee1313826b475a40d39a3eb3204c2"
   },
   {
@@ -876,11 +821,7 @@ const songDatabase = [
       "sociability": 4
     },
     "link": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/93/8c/f5938c49-964c-31d1-4b33-78b634f71fb7/190295978075.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=14",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/c0d9119dc69cae75baf6463e21e43f433fdf5ff4"
   },
   {
@@ -895,21 +836,12 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/2NlTOhsAamXOaZciOXbITb",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/03/76/0f/03760f02-3ed4-d4eb-5386-5b7046a527ad/00602557483406.rgb.jpg/600x600bb.jpg",
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/f67c4cffe880cc85996c827ee90a90b408711b2b"
   },
   {
     "title": "Walk On Water (feat. Beyoncé)",
     "artist": "Eminem, Beyoncé",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=15",
-    "preview": "https://p.scdn.co/mp3-preview/f67c4cffe880cc85996c827ee90a90b408711b2b"
-  },
-  {
-    "title": "Walk On Water (feat. Beyonc├⌐)",
-    "artist": "Eminem, Beyonc├⌐",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "vibe": "Grounded & Real",
     "vectors": {
       "idealism": 1,
@@ -919,11 +851,7 @@ const songDatabase = [
       "sociability": 3
     },
     "link": "https://open.spotify.com/track/7CcoUAtUcYhUfBsmtn0ajO",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7f/f4/4c/7ff44c20-a2c6-71f1-b7f2-ab8211b33eb5/00602567235569.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=16",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/bfffdf7c7b9ef2d9fb9a96e2e17752cb0b7c201e"
   },
   {
@@ -953,11 +881,7 @@ const songDatabase = [
       "sociability": 7
     },
     "link": "https://open.spotify.com/track/3hxIUxnT27p5WcmjGUXNwx",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/11/1b/63111b50-00ce-2734-e09f-94fb791c9dee/0d6bb465-1f3e-457c-99e5-a786f63c3fbb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=17",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/7642409265c74b714a2f0f0dd8663c031e253485"
   },
   {
@@ -972,11 +896,7 @@ const songDatabase = [
       "sociability": 10
     },
     "link": "https://open.spotify.com/track/4bD9z9qa4qg9BhryvYWB7c",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=18",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/75e722cf78b98bd47c25a942da931e2e918b392b"
   },
   {
@@ -991,11 +911,7 @@ const songDatabase = [
       "sociability": 10
     },
     "link": "https://open.spotify.com/track/0ntAdrRd2ferE32aw637e9",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/e5/6a/0ae56a2b-5bdd-4a05-a3a1-161fa219ada9/23UM1IM46031.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=19",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/f5b4d0d95079639df5828c34a3e17c492470215c"
   },
   {
@@ -1010,11 +926,7 @@ const songDatabase = [
       "sociability": 6
     },
     "link": "https://open.spotify.com/track/0TziqLMlv3abspIvcEmxcY",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/da/17/0ada17e2-255a-1ed8-0eb5-c3d717540d5b/20UMGIM33837.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=20",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/8c9f32f2c73d5a6f06d6495303524a93ce1cc333"
   },
   {
@@ -1029,11 +941,7 @@ const songDatabase = [
       "sociability": 9
     },
     "link": "https://open.spotify.com/track/1TfqLAPs4K3s2rJMoCokcS",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ad/d3/3d/add33dea-0a4d-9509-643b-939ba6735733/dj.vpugapfp.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=21",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/d69101dbd66295473706112d3edf978b70fc4550"
   },
   {
@@ -1063,11 +971,7 @@ const songDatabase = [
       "sociability": 9
     },
     "link": "https://open.spotify.com/track/4e4fqjx0Izh4svvTef1z7e",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/25/72/53257211-8ed9-2d2c-1fcb-8a12a8a7a1d0/00843930036868.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=22",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/0b972d24c49e50be428edfacbafae85cb80249e9"
   },
   {
@@ -1082,11 +986,7 @@ const songDatabase = [
       "sociability": 1
     },
     "link": "https://open.spotify.com/track/3hfPmifit8Rtc0zj9WYQlU",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1c/d4/ec/1cd4ec5b-664e-181b-a975-4e768a407756/093624906728.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=23",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/af4e22f5584404fcb14b254a687596d069922ad0"
   },
   {
@@ -1176,11 +1076,7 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/28TpzUIZmbj2Va4E0FkcFa",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/88/46/668846a7-5c1d-f46e-50a7-6841d85d1781/7316215459759.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=24",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/2929d10a645f2a2bd7e782cb94f02a3f0f23a8e9"
   },
   {
@@ -1210,11 +1106,7 @@ const songDatabase = [
       "sociability": 3
     },
     "link": "https://open.spotify.com/track/1XGmzt0PVuFgQYYnV2It7A",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4c/9a/f4/4c9af4b6-31d4-c856-a834-26f73f48d4a5/12UMGIM26179.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=25",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/3fa424cf3b47431d48b7a12368ce0eeb134fc03f"
   },
   {
@@ -1233,13 +1125,8 @@ const songDatabase = [
     "preview": "https://p.scdn.co/mp3-preview/e9fd87ddcaeace8048a950944b883bb3cfedfa53"
   },
   {
-<<<<<<< HEAD
     "title": "Where Are Ü Now (with Justin Bieber)",
     "artist": "Jack Ü, Skrillex, Diplo, Justin Bieber",
-=======
-    "title": "Where Are ├£ Now (with Justin Bieber)",
-    "artist": "Jack ├£, Skrillex, Diplo, Justin Bieber",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "vibe": "Party Starter",
     "vectors": {
       "idealism": 5,
@@ -1249,11 +1136,7 @@ const songDatabase = [
       "sociability": 9
     },
     "link": "https://open.spotify.com/track/66hayvUbTotekKU3H4ta1f",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b3/ea/21/b3ea217e-d5d0-4db7-5942-15cdff5ad68d/075679927354.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=26",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/baf97fea2e3e1c97092ac69426691b703d20d0e2"
   },
   {
@@ -1283,20 +1166,12 @@ const songDatabase = [
       "sociability": 2
     },
     "link": "https://open.spotify.com/track/4ve2uzqdwnHr20G5YgMMqr",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/24/11/8224111a-df07-18fc-eadd-c6582fdd5ef0/13UAEIM26847.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=27",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/d678790d38f928bf6eaddc31577e7e3f22a7cd97"
   },
   {
     "title": "I WANNA BE YOUR SLAVE",
-<<<<<<< HEAD
     "artist": "Måneskin",
-=======
-    "artist": "M├Ñneskin",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
     "vibe": "High Energy Anthem",
     "vectors": {
       "idealism": 3,
@@ -1306,11 +1181,7 @@ const songDatabase = [
       "sociability": 3
     },
     "link": "https://open.spotify.com/track/4pt5fDVTg5GhEvEtlz9dKk",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/63/8a/20638a69-2289-4505-8f45-4e622c62277b/199806096826.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=28",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/485950694eaee2c2887f897603a9bc4acc05c0bf"
   },
   {
@@ -1325,11 +1196,7 @@ const songDatabase = [
       "sociability": 7
     },
     "link": "https://open.spotify.com/track/6EOKwO6WaLal58MSsi6U4W",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/4a/10/584a1058-de0a-6a6b-d0bd-da09a028b8bc/00602567705499.rgb.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=29",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/38a4f03854bd1c7b4421557524a98609375fd3a1"
   },
   {
@@ -1344,11 +1211,277 @@ const songDatabase = [
       "sociability": 10
     },
     "link": "https://open.spotify.com/track/30QR0ndUdiiMQMA9g1PGCm",
-<<<<<<< HEAD
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/65/ae/ef65ae4d-f77b-9cde-154e-525b5caf0772/198846109701.jpg/600x600bb.jpg",
-=======
-    "image": "https://source.unsplash.com/random/600x600?music,synth&sig=30",
->>>>>>> 6fdb21ec4f497aa74ae52e87e98064ddc45dd17f
+    "image": "",
     "preview": "https://p.scdn.co/mp3-preview/57e94b0e59973f18518b5c41f15f4653732f7f06"
+  },
+  {
+    "title": "Taki Taki",
+    "artist": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+    "vibe": "Party Starter",
+    "vectors": {
+      "idealism": 4,
+      "pragmatism": 5,
+      "intensity": 8,
+      "introspection": 1,
+      "sociability": 10
+    },
+    "link": "https://open.spotify.com/search/Taki%20Taki%20DJ%20Snake%2C%20Selena%20Gomez%2C%20Ozuna%2C%20Cardi%20B",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/96/dd/45/96dd45f2-76a9-6eaf-b001-bdaa144d69e2/19UMGIM01664.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9d/9d/0b/9d9d0b79-d309-c0d2-fb18-c1650b576d57/mzaf_4852893199516087676.plus.aac.p.m4a"
+  },
+  {
+    "title": "Lie on Me",
+    "artist": "Lil He77",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 4,
+      "intensity": 6,
+      "introspection": 8,
+      "sociability": 3
+    },
+    "link": "https://open.spotify.com/search/Lie%20on%20Me%20Lil%20He77",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/94/29/51942963-92ec-2f48-0569-a6717d187432/07UMGIM10152.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/04/1e/46041e1d-7350-10ec-7d0f-27ce3c88feac/mzaf_11371460636003741739.plus.aac.p.m4a"
+  },
+  {
+    "title": "Kab Se Kab Tak",
+    "artist": "Kaam Bhaari, Karsh Kale, Ankur Tewari, Vibha Saraf, Ranveer Singh",
+    "vibe": "High Energy Anthem",
+    "vectors": {
+      "idealism": 6,
+      "pragmatism": 6,
+      "intensity": 8,
+      "introspection": 6,
+      "sociability": 7
+    },
+    "link": "https://open.spotify.com/search/Kab%20Se%20Kab%20Tak%20Kaam%20Bhaari%2C%20Karsh%20Kale%2C%20Ankur%20Tewari%2C%20Vibha%20Saraf%2C%20Ranveer%20Singh",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/5e/60/3a5e6034-8755-f0bf-d4f0-c7f96d3b45bb/8718857674948.png/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/db/92/8bdb92e9-1cf4-c3c5-3dac-5d5e07445f14/mzaf_16387579157983459721.plus.aac.p.m4a"
+  },
+  {
+    "title": "Psycho (feat. Ty Dolla $ign)",
+    "artist": "Post Malone, Ty Dolla $ign",
+    "vibe": "Modern Hit",
+    "vectors": {
+      "idealism": 3,
+      "pragmatism": 5,
+      "intensity": 6,
+      "introspection": 4,
+      "sociability": 8
+    },
+    "link": "https://open.spotify.com/search/Psycho%20(feat.%20Ty%20Dolla%20%24ign)%20Post%20Malone%2C%20Ty%20Dolla%20%24ign",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/9f/fb/559ffb75-3c00-abd6-7b1f-8b6b1518b173/18UMGIM22101.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/34/99/fa34994a-a127-2510-45ba-443ffa9c6dcb/mzaf_7285123442054013415.plus.aac.p.m4a"
+  },
+  {
+    "title": "RAP DEVIL",
+    "artist": "gk",
+    "vibe": "High Energy Anthem",
+    "vectors": {
+      "idealism": 2,
+      "pragmatism": 4,
+      "intensity": 9,
+      "introspection": 3,
+      "sociability": 6
+    },
+    "link": "https://open.spotify.com/search/RAP%20DEVIL%20gk",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5f/44/ec/5f44eca3-e256-52d7-c6a2-0498e8c54797/00602577020469.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/61/ff/2761ff89-788c-93a9-aee6-5c8fbdec431a/mzaf_2291054354348524390.plus.aac.p.m4a"
+  },
+  {
+    "title": "Goodbye",
+    "artist": "lekhak",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 5,
+      "intensity": 4,
+      "introspection": 9,
+      "sociability": 2
+    },
+    "link": "https://open.spotify.com/search/Goodbye%20lekhak",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/b1/b7/32b1b705-9caf-85e4-7161-e57f9a588b13/8720996328309.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/29/46/cd2946b8-48b6-3620-edd3-5643f2c61911/mzaf_4639697071871814454.plus.aac.p.m4a"
+  },
+  {
+    "title": "Midnight City",
+    "artist": "M83",
+    "vibe": "Dreamy & Ethereal",
+    "vectors": {
+      "idealism": 9,
+      "pragmatism": 3,
+      "intensity": 7,
+      "introspection": 6,
+      "sociability": 5
+    },
+    "link": "https://open.spotify.com/search/Midnight%20City%20M83",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/7b/a9/cb7ba903-b5f1-cc21-90db-7a81b7aa0997/724596951057.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/71/5c/80/715c80fc-ebe4-e713-487c-5bdefee6c6f3/mzaf_3698387428135478316.plus.aac.p.m4a"
+  },
+  {
+    "title": "Mere Mehboob Qayamat Hogi",
+    "artist": "Kishore Kumar",
+    "vibe": "Dreamy & Ethereal",
+    "vectors": {
+      "idealism": 9,
+      "pragmatism": 4,
+      "intensity": 5,
+      "introspection": 6,
+      "sociability": 5
+    },
+    "link": "https://open.spotify.com/search/Mere%20Mehboob%20Qayamat%20Hogi%20Kishore%20Kumar",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0a/59/0a/0a590ad0-60ef-186f-f4a0-fbec43ef6a3d/196925649674.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/6a/55/66/6a5566af-d1ef-357c-5a38-a6ce6e24244f/mzaf_5457776882711269117.plus.aac.p.m4a"
+  },
+  {
+    "title": "Aaina",
+    "artist": "AFKAP",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 6,
+      "pragmatism": 5,
+      "intensity": 5,
+      "introspection": 7,
+      "sociability": 4
+    },
+    "link": "https://open.spotify.com/search/Aaina%20AFKAP",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ff/07/08/ff0708a7-def4-4789-7b19-391655c453f9/cover.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/53/92/1d/53921d69-1ba8-9301-53a1-0d8a120b5aeb/mzaf_3563399611529221085.plus.aac.p.m4a"
+  },
+  {
+    "title": "Outta My Hair",
+    "artist": "Logan Paul",
+    "vibe": "Modern Hit",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 6,
+      "intensity": 5,
+      "introspection": 2,
+      "sociability": 7
+    },
+    "link": "https://open.spotify.com/search/Outta%20My%20Hair%20Logan%20Paul",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/61/0a/02/610a02a3-f296-339d-cee9-d9bcb6706be8/4803.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/47/fd/98/47fd982d-2b9c-d575-f5e2-ee12b7878484/mzaf_2229714259838698261.plus.aac.p.m4a"
+  },
+  {
+    "title": "Freaks",
+    "artist": "Surf Curse",
+    "vibe": "High Energy Anthem",
+    "vectors": {
+      "idealism": 7,
+      "pragmatism": 3,
+      "intensity": 7,
+      "introspection": 7,
+      "sociability": 4
+    },
+    "link": "https://open.spotify.com/search/Freaks%20Surf%20Curse",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/cb/b3/eccbb387-6215-299f-a753-9e24faaea3de/075679780850.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/5c/66/a15c66eb-d6f0-af2c-0992-935f3f742697/mzaf_18107581432608670060.plus.aac.p.m4a"
+  },
+  {
+    "title": "Ruin My Life",
+    "artist": "Zara Larsson",
+    "vibe": "Modern Hit",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 5,
+      "intensity": 6,
+      "introspection": 4,
+      "sociability": 7
+    },
+    "link": "https://open.spotify.com/search/Ruin%20My%20Life%20Zara%20Larsson",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3c/7f/aa/3c7faa0f-dde7-f89f-e355-981bfb3f7673/886447369692.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0c/86/99/0c869998-1b3a-2d98-3725-17e5614ede2a/mzaf_9396394860574767473.plus.aac.p.m4a"
+  },
+  {
+    "title": "Ghum Nahi",
+    "artist": "JANI, superdupersultan",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 6,
+      "pragmatism": 4,
+      "intensity": 6,
+      "introspection": 7,
+      "sociability": 5
+    },
+    "link": "https://open.spotify.com/search/Ghum%20Nahi%20JANI%2C%20superdupersultan",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/0e/90/380e903a-2c2e-264a-704c-dd5b5a6840a8/5059863742980_cover.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/7e/12/817e12c7-4084-ae86-d926-aeaa2f8c70de/mzaf_17516977637730802270.plus.aac.p.m4a"
+  },
+  {
+    "title": "Habits (Stay High)",
+    "artist": "Tove Lo",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 3,
+      "pragmatism": 4,
+      "intensity": 6,
+      "introspection": 8,
+      "sociability": 5
+    },
+    "link": "https://open.spotify.com/search/Habits%20(Stay%20High)%20Tove%20Lo",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b9/2d/20/b92d205d-f9fc-13cc-c714-14aed93081b4/15UMGIM46170.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/93/c9/1693c9c1-9181-005a-ce77-6d45a07cb3d0/mzaf_10489117179796418423.plus.aac.p.m4a"
+  },
+  {
+    "title": "Main Tera",
+    "artist": "Tanishq, 2facebleed",
+    "vibe": "Modern Hit",
+    "vectors": {
+      "idealism": 6,
+      "pragmatism": 4,
+      "intensity": 6,
+      "introspection": 6,
+      "sociability": 5
+    },
+    "link": "https://open.spotify.com/search/Main%20Tera%20Tanishq%2C%202facebleed",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7c/40/69/7c406994-7595-ff15-d64f-35f0c58face4/36c67822-3514-4a80-ad05-599708b1e93f.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8f/d8/6e/8fd86eff-294d-a972-b8f8-cdcdffa2bb8f/mzaf_1089959229541561796.plus.aac.p.m4a"
+  },
+  {
+    "title": "Heartless",
+    "artist": "Kanye West",
+    "vibe": "Late Night Thoughts",
+    "vectors": {
+      "idealism": 3,
+      "pragmatism": 5,
+      "intensity": 5,
+      "introspection": 8,
+      "sociability": 4
+    },
+    "link": "https://open.spotify.com/search/Heartless%20Kanye%20West",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/24/96/c9249688-ffdc-40c1-d56e-d84ee8537ed7/mzaf_15473080214798193650.plus.aac.p.m4a"
+  },
+  {
+    "title": "Beethoven",
+    "artist": "Kenndog",
+    "vibe": "High Energy Anthem",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 4,
+      "intensity": 7,
+      "introspection": 5,
+      "sociability": 6
+    },
+    "link": "https://open.spotify.com/search/Beethoven%20Kenndog",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/b4/7d/2bb47d02-cf7c-4a69-8cec-4cc186e8ff6f/8721253543138.png/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/34/2b/bb342b5b-7512-cfe7-e3d8-96102a890c26/mzaf_8361851019022288371.plus.aac.p.m4a"
+  },
+  {
+    "title": "STAY (with Justin Bieber)",
+    "artist": "The Kid LAROI, Justin Bieber",
+    "vibe": "Modern Hit",
+    "vectors": {
+      "idealism": 5,
+      "pragmatism": 4,
+      "intensity": 8,
+      "introspection": 5,
+      "sociability": 8
+    },
+    "link": "https://open.spotify.com/search/STAY%20(with%20Justin%20Bieber)%20The%20Kid%20LAROI%2C%20Justin%20Bieber",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/59/6a/89596ab9-fa3c-8d08-4d95-a6450fa2013c/886449400515.jpg/600x600bb.jpg",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/4a/84/d74a84d5-9afa-761e-b632-baab55c2a23b/mzaf_11865500880477235553.plus.aac.p.m4a"
   }
 ];
