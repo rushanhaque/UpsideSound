@@ -368,7 +368,7 @@ body { position: fixed; inset: 0; }
 .reveal-video {
   position: fixed; inset: 0; width: 100%; height: 100%;
   object-fit: cover; z-index: -2;
-  filter: contrast(1.06) saturate(0.92) brightness(0.6) blur(5px);
+  filter: contrast(1.06) saturate(0.92) brightness(0.6) blur(2px);
 }
 .reveal-scrim {
   position: fixed; inset: 0; z-index: -1;
@@ -380,14 +380,14 @@ body { position: fixed; inset: 0; }
 .result-card {
   position: relative;
   width: min(860px, 94vw);
-  background: var(--bg-glass);
-  border: 1px solid var(--line);
+  background: rgba(12, 11, 16, 0.42);
+  border: 1px solid rgba(242, 237, 227, 0.07);
   border-top: 1px solid var(--line-red);
   border-radius: var(--r-md);
   padding: clamp(22px, 4vw, 34px);
-  backdrop-filter: blur(20px) saturate(120%);
-  -webkit-backdrop-filter: blur(20px) saturate(120%);
-  box-shadow: 0 40px 100px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
+  backdrop-filter: blur(16px) saturate(115%);
+  -webkit-backdrop-filter: blur(16px) saturate(115%);
+  box-shadow: 0 24px 70px rgba(0,0,0,0.42);
   opacity: 0; transform: translateY(26px) scale(0.98);
 }
 .reveal.is-active .result-card { animation: card-in 1s var(--ease) 0.25s forwards; }
@@ -538,12 +538,27 @@ body { position: fixed; inset: 0; }
 /* ===== RESPONSIVE (mobile-first: base styles target phones, enhance upward) ===== */
 
 /* very small phones */
+/* compact recommendation tile on phones */
+@media (max-width: 600px) {
+  .reveal { padding: 74px 14px 28px; }
+  .result-card { width: min(420px, 90vw); padding: 16px; }
+  .result-head { margin-bottom: 14px; padding-bottom: 9px; font-size: 0.52rem; }
+  .result-body { gap: 12px; }
+  .result-cover { width: 104px; height: 104px; }
+  .result-resonance { font-size: 0.72rem; padding: 4px 7px; bottom: -10px; right: -10px; }
+  .result-eyebrow { font-size: 0.54rem; margin-bottom: 5px; }
+  .result-title { font-size: 1.25rem; }
+  .result-artist { font-size: 0.8rem; margin-top: 4px; }
+  .result-vibe { font-size: 0.52rem; margin-top: 8px; }
+  .result-read { font-size: 0.8rem; line-height: 1.5; margin-top: 10px; }
+  .result-actions { margin-top: 16px; gap: 8px; }
+  .result-actions .btn-spotify, .result-actions .btn-ghost { flex: 1 1 100%; justify-content: center; padding: 10px 14px; }
+  .stamp-complete { font-size: 0.6rem; padding: 4px 6px; top: 10px; right: 10px; }
+}
+
 @media (max-width: 380px) {
   .wordmark { font-size: 2.15rem; }
   .dossier { padding: 26px 18px 22px; }
-  .result-cover { width: 132px; height: 132px; }
-  .result-title { font-size: 1.4rem; }
-  .result-actions .btn-spotify, .result-actions .btn-ghost { flex: 1 1 100%; justify-content: center; }
 }
 
 /* tablets and up */
