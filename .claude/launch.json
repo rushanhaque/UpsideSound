@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "upsidesound",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["_devserver.cjs"],
+      "port": 5577
+    }
+  ]
+}
