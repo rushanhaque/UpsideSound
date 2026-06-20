@@ -526,8 +526,6 @@
     $('result-sync').textContent = 'PSYCHICALLY SYNCED WITH ' + ch.name.toUpperCase();
     $('result-title').textContent = hero.title;
     $('result-artist').textContent = hero.artist;
-    $('result-vibe').textContent = 'ASSIGNED FREQUENCY // ' + (hero.vibe || 'UNCLASSIFIED').toUpperCase() + '  ·  ' + result.profile.signature.toUpperCase();
-    $('result-read').textContent = result.profile.lines.join(' ');
     $('result-freq').textContent = 'FREQ ' + sessionFreq.toFixed(1);
     $('spotify-btn').href = hero.link || '#';
 
@@ -602,20 +600,6 @@
   function escapeHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
   /* --------------------------------------------------------------------------
-     RESTART
-     -------------------------------------------------------------------------- */
-  function restart() {
-    stopAllMusic();
-    if (revealVideo) { try { revealVideo.pause(); } catch (e) {} }
-    galleryOverlay.classList.remove('is-active');
-    galleryOverlay.setAttribute('aria-hidden', 'true');
-    screens.reveal.removeAttribute('inert');
-    $('analysis-status').style.color = '';
-    document.querySelector('.stamp-complete').style.opacity = '';
-    beginEvaluation();
-  }
-
-  /* --------------------------------------------------------------------------
      WIRING
      -------------------------------------------------------------------------- */
   $('begin-btn').addEventListener('click', () => {
@@ -640,8 +624,6 @@
     screens.reveal.removeAttribute('inert');
     $('more-btn').focus();                         // return focus to the opener
   });
-  $('restart-btn').addEventListener('click', restart);
-
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && galleryOverlay.classList.contains('is-active')) $('gallery-close').click();
   });
