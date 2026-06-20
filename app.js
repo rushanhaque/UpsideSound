@@ -624,6 +624,22 @@
     screens.reveal.removeAttribute('inert');
     $('more-btn').focus();                         // return focus to the opener
   });
+
+  $('audio-toggle').addEventListener('click', () => {
+    if (preview.paused) preview.play().catch(() => {});
+    else preview.pause();
+  });
+  ['play', 'pause', 'ended'].forEach(ev => preview.addEventListener(ev, syncAudioIcon));
+  function syncAudioIcon() {
+    const btn = $('audio-toggle');
+    if (!btn) return;
+    const playing = !preview.paused;
+    btn.querySelector('.ico-pause').hidden = !playing;
+    btn.querySelector('.ico-play').hidden = playing;
+    btn.setAttribute('aria-label', playing ? 'Pause preview' : 'Play preview');
+    btn.setAttribute('title', playing ? 'Pause' : 'Play');
+  }
+
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && galleryOverlay.classList.contains('is-active')) $('gallery-close').click();
   });
